@@ -1,6 +1,6 @@
 # 💾 FLDist: DSP-эффекты для WAV-файлов (Android Root Utility)
 
-![Статус проекта](https://img.shields.io/badge/Status-Alpha%200.2.9-red.svg)
+![Статус проекта](https://img.shields.io/badge/Status-Alpha%201.0.0-red.svg)
 ![Лицензия](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## ✨ Обзор
