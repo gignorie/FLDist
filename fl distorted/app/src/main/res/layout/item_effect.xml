@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/effect_block_container"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:paddingTop="8dp"
+android:paddingBottom="8dp"
+android:layout_marginBottom="8dp"
+android:background="#F0F0F0">
+
+<TextView
+android:id="@+id/effect_item_title"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="[N. Эффект Имя]"
+android:textStyle="bold|italic"
+android:textSize="14sp"
+android:paddingStart="8dp"
+android:paddingEnd="8dp"
+android:layout_marginBottom="4dp" />
+
+<TextView
+android:id="@+id/effect_item_param_text"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="12sp"
+android:paddingStart="8dp"
+android:text="Параметр: 0" />
+<SeekBar
+android:id="@+id/effect_item_param_seekbar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:max="100"
+android:progress="0"
+android:paddingStart="8dp"
+android:paddingEnd="8dp"
+android:layout_marginBottom="4dp" />
+
+<TextView
+android:id="@+id/effect_item_mix_text"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:textSize="12sp"
+android:paddingStart="8dp"
+android:text="Mix %: 0"
+android:textColor="@color/colorPrimaryDark"/>
+<SeekBar
+android:id="@+id/effect_item_mix_seekbar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:max="100"
+android:progress="0"
+android:paddingStart="8dp"
+android:paddingEnd="8dp" />
+
+</LinearLayout>
