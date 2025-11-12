@@ -1,3 +1,4 @@
+package com.gignorie.fldist;
 import java.io.*;
 
 public class ReadExample

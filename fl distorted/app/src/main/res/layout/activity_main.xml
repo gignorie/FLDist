@@ -1,33 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-android:padding="16dp"
-tools:context=".MainActivity">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity" >
 
-<TextView
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:text="FL Studio Mobile Song List"
-android:textSize="24sp"
-android:textStyle="bold"
-android:paddingBottom="16dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="FL Studio Mobile Song List"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
-<Button
-android:id="@+id/scan_button"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:text="Scan for Songs (Requires Root)"
-android:layout_marginBottom="16dp"/>
+    <Button
+        android:id="@+id/scan_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Scan for Songs (Requires Root)" />
 
-<ListView
-android:id="@+id/song_list_view"
-android:layout_width="match_parent"
-android:layout_height="0dp"
-android:layout_weight="1"
-android:divider="#CCCCCC"
-android:dividerHeight="1dp"/>
+    <Button
+        android:id="@+id/button_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Сортировка: Новые (↓)" />
+
+    <ListView
+        android:id="@+id/song_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp" />
 
 </LinearLayout>
